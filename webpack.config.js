@@ -12,7 +12,7 @@ const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');
 const isDev = process.env.NODE_ENV === 'development';
 const isProd = !isDev;
 const PATHS = {
-    src: path.resolve(__dirname, '../frontend/src'),
+    src: path.resolve(__dirname, '../frontend_education/src'),
     dist: path.resolve(__dirname, '../dist'),
     assets: 'assets/'
 }

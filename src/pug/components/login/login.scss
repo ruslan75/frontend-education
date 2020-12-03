@@ -1,0 +1,30 @@
+.login__box {
+    width: 48px;
+    height: 48px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+.login__circle {
+    width: 48px;
+    height: 48px;
+    border: solid 2px rgba(31,32,65,.25);
+    border-radius: 50%;
+}
+.login_wings-left {
+    position: absolute;
+    width: 10.94px;
+    height: 7.09px;
+    left: 55.77px;
+    top: 48.35px;
+    background: rgba(31, 32, 65, 0.25);
+}
+.login_wings-left::before {
+    content:"";
+    position: absolute;
+    width: 10.94px;
+height: 7.09px;
+    left: 41.29px;
+    top: 48.35px;
+    background: rgba(31, 32, 65, 0.25);
+}
