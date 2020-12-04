@@ -1,0 +1,99 @@
+.description-name {
+    max-width: 412px;
+    width:100%;
+    margin-right: 91px;
+    margin-top: 70px;
+}
+.description-name__item {
+    display:flex;
+    padding-bottom: 46px;
+    &:nth-child(2) {
+        padding-bottom: 51px;
+    }
+    &:nth-child(3) {
+        padding-bottom: 46px;
+    }
+}
+.description-name__description {
+    padding-left: 29px;
+    letter-spacing: -0.4px;
+    display: inline-block;
+    
+}
+.description-name__title-one {
+    font-family: 'Conv_Montserrat-Light';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 9px;
+}
+.description-name__description-one {
+    font-family: 'Conv_quicksandbold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2041;
+    span {
+        padding: 0;
+    line-height: 37px;
+    }
+}
+.description-name__title-two {
+    font-family: 'Conv_Montserrat-Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 12px;
+}
+.description-name__description-two {
+    font-family: 'Conv_quicksandbold';
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 24px;
+color: #1F2041;
+}
+.description-name__title-three {
+    font-family: 'Conv_Montserrat-Light';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+padding-left: 20px;
+color: rgba(31, 32, 65, 0.25);
+}
+.description-name__description-three {
+    font-family: 'Conv_quicksandbold';
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+color: #1F2041;
+padding-left: 30px;
+letter-spacing: 0.4px;
+}
+.description-name__title-four {
+    font-family: 'Conv_Montserrat-Light';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.25);
+}
+.description-name__description-four {
+    font-family: 'Conv_Montserrat-Light';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 13px;
+color: rgba(31, 32, 65, 0.75);
+letter-spacing: 0.1px;
+padding-top: 5px;
+span {
+    padding: 0;
+line-height: 37px;
+letter-spacing: 0.7px;
+}
+}
