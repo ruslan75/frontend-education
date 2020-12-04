@@ -1,9 +1,6 @@
-@import "font.css";
+@import "font.scss";
 @import "reset.scss";
 @import "../pug/components/colors/colors.scss";
+@import "../pug/components/descriptionName/descriptionName.scss";
 @import "../pug/components/login/login.scss";
 @import "../pug/blocks/color-text/color-text.scss";
-@import "../pug/components/RangeSlider/RangeSlider.scss";
-@import "../pug/components/rate_button/rate_button.scss";
-@import "../pug/components/input/input.scss";
-@import "../pug/components/calendar/calendar.scss";

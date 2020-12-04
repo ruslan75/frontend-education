@@ -1,34 +1,3 @@
-/* // @font-face {
-// 	font-family: 'Conv_quicksandregular';
-// 	src: url('../fonts/quicksandregular.eot');
-// 	src: local('☺'), url('../fonts/quicksandregular.woff') format('woff'), url('../fonts/quicksandregular.ttf') format('truetype'), url('fonts/quicksandregular.svg') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-// @font-face {
-// 	font-family: 'Conv_quicksandbold';
-// 	src: url('../fonts/quicksandbold.eot');
-// 	src: local('☺'), url('../fonts/quicksandbold.woff') format('woff'), url('../fonts/quicksandbold.ttf') format('truetype'), url('fonts/quicksandbold.svg') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-// @font-face {
-// 	font-family: 'Conv_montserratbold';
-// 	src: url('../fonts/montserratbold.eot');
-// 	src: local('☺'), url('../fonts/montserratbold.woff') format('woff'), url('../fonts/montserratbold.ttf') format('truetype'), url('fonts/montserratbold.svg') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-// @font-face {
-// 	font-family: 'Conv_montserrat';
-// 	src: url('../fonts/montserrat.eot');
-// 	src: local('☺'), url('../fonts/montserrat.woff') format('woff'), url('../fonts/montserrat.ttf') format('truetype'), url('fonts/montserrat.svg') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// } */
-
-
-
 
 @font-face {
 	font-family: 'Conv_montserrat';
@@ -58,6 +27,27 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Conv_Montserrat-Thin';
+	src: url('../fonts/Montserrat-Thin.eot');
+	src: local('☺'), url('../fonts/Montserrat-Thin.woff') format('woff'), url('../fonts/Montserrat-Thin.ttf') format('truetype'), url('../fonts/Montserrat-Thin.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Montserrat-ExtraLight';
+	src: url('../fonts/Montserrat-ExtraLight.eot');
+	src: local('☺'), url('../fonts/Montserrat-ExtraLight.woff') format('woff'), url('../fonts/Montserrat-ExtraLight.ttf') format('truetype'), url('../fonts/Montserrat-ExtraLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Montserrat-Light';
+	src: url('../fonts/Montserrat-Light.eot');
+	src: local('☺'), url('../fonts/Montserrat-Light.woff') format('woff'), url('../fonts/Montserrat-Light.ttf') format('truetype'), url('../fonts/Montserrat-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 /* icon */
 
 @font-face {
@@ -75,7 +65,6 @@
   [class^="icon-"], [class*=" icon-"] {
 	/* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'icomoon' !important;
-	speak: never;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
