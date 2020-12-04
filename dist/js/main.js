@@ -166,74 +166,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.scss */ "./sass/style.scss");
 /* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_style_scss__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _pug_components_RangeSlider_RangeSlider_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pug/components/RangeSlider/RangeSlider.js */ "./pug/components/RangeSlider/RangeSlider.js");
-/* harmony import */ var _pug_components_RangeSlider_RangeSlider_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pug_components_RangeSlider_RangeSlider_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _pug_components_input_input_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pug/components/input/input.js */ "./pug/components/input/input.js");
-/* harmony import */ var _pug_components_input_input_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pug_components_input_input_js__WEBPACK_IMPORTED_MODULE_2__);
 
- // import  './pug/components/rate_button/rate_button.js';
-
-
-
-/***/ }),
-
-/***/ "./pug/components/RangeSlider/RangeSlider.js":
-/*!***************************************************!*\
-  !*** ./pug/components/RangeSlider/RangeSlider.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function getVals() {
-  // Get slider values
-  var parent = this.parentNode;
-  var slides = parent.getElementsByTagName("input");
-  var slide1 = parseFloat(slides[0].value);
-  var slide2 = parseFloat(slides[1].value); // Neither slider will clip the other, so make sure we determine which is larger
-
-  if (slide1 > slide2) {
-    var tmp = slide2;
-    slide2 = slide1;
-    slide1 = tmp;
-  }
-
-  var displayElement = parent.getElementsByClassName("rangeValues")[0];
-  displayElement.innerHTML = "$ " + slide1 + "k - $" + slide2 + "k";
-}
-
-window.onload = function () {
-  // Initialize Sliders
-  var sliderSections = document.getElementsByClassName("range-slider");
-
-  for (var x = 0; x < sliderSections.length; x++) {
-    var sliders = sliderSections[x].getElementsByTagName("input");
-
-    for (var y = 0; y < sliders.length; y++) {
-      if (sliders[y].type === "range") {
-        sliders[y].oninput = getVals; // Manually trigger event first time to display values
-
-        sliders[y].oninput();
-      }
-    }
-  }
-};
-
-/***/ }),
-
-/***/ "./pug/components/input/input.js":
-/*!***************************************!*\
-  !*** ./pug/components/input/input.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var arrow = document.querySelector('#icon');
-
-if (arrow) {
-  arrow.addEventListener('click', function () {
-    return document.querySelector('#calendar').classList.toggle('calendar');
-  });
-}
 
 /***/ }),
 
